@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import secondImg from "../assets/segundo-carrusel/carrusel3.jpg";
 import thirdImg from "../assets/segundo-carrusel/carrusel2.png";
 import firstImg from '../assets/segundo-carrusel/carrusel1.png'
+import imgAbout from '../assets/about/img-about.webp'
 
 interface Slide {
   image: string;
@@ -13,7 +14,6 @@ const About: React.FC = () => {
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
   const [selectedImage, setSelectedImage] = useState<Slide | null>(null);
   
-  const imgAbout = '/src/assets/about/img-about.webp';
   const starsBackground = '/src/assets/about/stars-bgrnd.svg';
   const slides: Slide[] = [
     {
