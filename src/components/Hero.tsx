@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
-import { ArrowDown } from 'lucide-react';
-import gifBanner from '../assets/banner/gif.png';
+import gifBanner from '../assets/banner/gif2.gif'
 import SonnyAngel from '../assets/banner/sonnyangel-banner.png';
+
 const Hero: React.FC = () => {
   const bannerRef = useRef<HTMLDivElement>(null);
   const imageRefs = useRef<(HTMLImageElement | null)[]>([]);
